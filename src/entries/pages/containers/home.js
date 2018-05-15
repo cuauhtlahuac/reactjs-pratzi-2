@@ -11,9 +11,13 @@ class Home extends Component {
         state = {
             modalVisible: false,
         }
-        handleOpenModal = (event) => {
+        //esta funcion es la que se pasaba de componente a componente...
+        //va a recibir un parametro, ya no el evento de click, si no los props que envia el media que recibie de playlist
+        //title, author etc.....
+        handleOpenModal = (media) => {
             this.setState({
                 modalVisible: true,
+                media: media,
             })
         }
         handleCloseModal = (event) =>{           
@@ -26,8 +30,7 @@ class Home extends Component {
         <div>
           <HandleError>  
             <HomeLayout name='cuauh'>
-                <Related/>
-                <VideoPlayer/>          
+                <Related/>   
                     <Categories 
                     categories={this.props.data.categories}
                     handleOpenModal={this.handleOpenModal}
@@ -36,7 +39,13 @@ class Home extends Component {
                         this.state.modalVisible &&
                         <ModalContainer>
                             <Modal handleClick={this.handleCloseModal}>
-                                <h1>Esto es un nuevo portal (window)</h1>
+                                <h3>Leopark Video Player</h3>
+                                <VideoPlayer
+                                autoplay
+                                //aquí agregamos los datos obtenidos con la funcion handleOpenModal
+                                src={this.state.media.src}
+                                title={this.state.media.title}
+                                />                                       
                             </Modal>
                         </ModalContainer>
                         }

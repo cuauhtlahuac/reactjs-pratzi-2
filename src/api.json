@@ -26,7 +26,7 @@
           "author": "Yograterol",
           "type": "video",
           "cover": "./images/covers/bitcoin.jpg",
-          "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "src": "https://www.videvo.net/videvo_files/converted/2017_08/preview/170724_15_Setangibeach.mp486212.webm",
           "id": 3
         },
         {
@@ -34,7 +34,7 @@
           "author": "Freddier",
           "type": "video",
           "cover": "./images/covers/html5.jpg",
-          "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "src": "https://www.videvo.net/videvo_files/converted/2014_12/preview/Raindrops_Videvo.mp485639.webm",
           "id": 4
         },
         {
@@ -42,7 +42,7 @@
           "author": "Cvander",
           "type": "video",
           "cover": "./images/covers/mejorandola.jpg",
-          "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "src": "https://gcs-vimeo.akamaized.net/exp=1524262666~acl=%2A%2F950822413.mp4%2A~hmac=cb88e34bc3de945c54c7987338782d1ac5528149fd31eebb743a6c4070fc658b/vimeo-prod-skyfire-std-us/01/1798/10/258992063/950822413.mp4",
           "id": 5
         }
       ]
@@ -65,7 +65,7 @@
           "author": "M83",
           "type": "video",
           "cover": "./images/covers/midnight.jpg",
-          "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "src": "https://gcs-vimeo.akamaized.net/exp=1524262733~acl=%2A%2F706599358.mp4%2A~hmac=6ac4a29c527d451bc3a08807c6453e9e8c0ef49a216a24f30e291aff694ea245/vimeo-prod-skyfire-std-us/01/1441/8/207209033/706599358.mp4 ",
           "id": 5
         },
         {

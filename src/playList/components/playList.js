@@ -9,7 +9,10 @@ function Playlist(props){
                 <div className="Playlist">
                     {
                         props.playlist.map((item)=>{
-                        return <Media handleClick = {props.handleOpenModal} {...item} key={item.id}/>
+                                //handleClick =..., se sustituye por openModal, que se va a ejecutar en media cuando demos click y 
+                                //le va a pasar los parametros al ejecutar la funcion handleClick de <Media/>
+                                //...item, devuelve como resultado los valores obtenido de mapear la playList props.
+                        return <Media openModal = {props.handleOpenModal} {...item} key={item.id}/>
                         })
                     }
                 </div>
